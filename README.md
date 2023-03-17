@@ -21,7 +21,7 @@
 
 - 📄 Know about my experiences<a href="https://drive.google.com/file/d/1iWci0tjpfDDdW8ZHJ0a03ODLgsXk1wAV/view?usp=share_link" target="_blank">Resume</a>
 
-- 📄Portfolio -  <a href="https://vivektomar03.github.io/" target="_blank"><img src="https://trinket-user-assets.trinket.io/4ebc9cb34ec27e67a7854a282547b103c9888fd5-58d5974170b33b182b59311a.png"/></a>
+-   <a href="https://vivektomar03.github.io/" target="_blank"><img src="https://trinket-user-assets.trinket.io/4ebc9cb34ec27e67a7854a282547b103c9888fd5-58d5974170b33b182b59311a.png" width="180px"/></a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
