@@ -4,7 +4,7 @@
 
 <h1 align="center">Hi 👋, I'm Vivek Singh Tomar</h1>
 <h3 align="center">Learning Web Development From Masai (MERN)</h3>
-  <a href="https://vivektomar03.github.io/" target="_blank"><img src="https://trinket-user-assets.trinket.io/4ebc9cb34ec27e67a7854a282547b103c9888fd5-58d5974170b33b182b59311a.png" width="120px"/></a>
+  
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vivektomar03&label=Profile%20views&color=0e75b6&style=flat" alt="vivektomar03" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=vivektomar03" alt="vivektomar03" /></a> </p>
@@ -12,16 +12,16 @@
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
 - 🌱 I’m currently learning **Mern**
-
-- 👨‍💻 All of my projects are available at <a href="https://github.com/VivekTomar03?tab=repositories" target="_blank">Repositories</a>
+ 
+- 👨‍💻 All of my projects are available at  <a href="https://github.com/VivekTomar03?tab=repositories" target="_blank">Repositories</a>
 
 - 💬 Ask me about **React , APIs , Alogorithm**
 
-- 📫 How to reach me **tomarvivek90viv@gmail.com**
+- 📫 How to reach me  **tomarvivek90viv@gmail.com**
 
 - 📄 Know about my experiences<a href="https://drive.google.com/file/d/1iWci0tjpfDDdW8ZHJ0a03ODLgsXk1wAV/view?usp=share_link" target="_blank">Resume</a>
 
-- 
+- <a href="https://vivektomar03.github.io/" target="_blank"><img src="https://trinket-user-assets.trinket.io/4ebc9cb34ec27e67a7854a282547b103c9888fd5-58d5974170b33b182b59311a.png" width="120px"/></a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
