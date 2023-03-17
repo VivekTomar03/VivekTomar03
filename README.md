@@ -13,13 +13,13 @@
 
 - 🌱 I’m currently learning **Mern**
 
-- 👨‍💻 All of my projects are available at [https://github.com/VivekTomar03?tab=repositories]<a href="https://github.com/VivekTomar03?tab=repositories" target="_blank">Repositories</a>
+- 👨‍💻 All of my projects are available at <a href="https://github.com/VivekTomar03?tab=repositories" target="_blank">Repositories</a>
 
 - 💬 Ask me about **React , APIs , Alogorithm**
 
 - 📫 How to reach me **tomarvivek90viv@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1L3agojnCfweErWQLYUlbcGgfh-9Cu94C/view?usp=share_link]<a href="https://drive.google.com/file/d/1iWci0tjpfDDdW8ZHJ0a03ODLgsXk1wAV/view?usp=share_link" target="_blank">Resume</a>
+- 📄 Know about my experiences<a href="https://drive.google.com/file/d/1iWci0tjpfDDdW8ZHJ0a03ODLgsXk1wAV/view?usp=share_link" target="_blank">Resume</a>
 
 - 📄Portfolio -  <a href="https://vivektomar03.github.io/" target="_blank">  <button style="background:#3630a3;color:white;padding: 5px;">📄Portfolio</button></a>
 
