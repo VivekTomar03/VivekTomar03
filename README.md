@@ -13,15 +13,15 @@
 
 - 🌱 I’m currently learning **Mern**
  
-- 👨‍💻 All of my projects are available at  <a href="https://github.com/VivekTomar03?tab=repositories" target="_blank">Repositories</a>
+- 👨‍💻 All of my projects are available at --> <a href="https://github.com/VivekTomar03?tab=repositories" target="_blank">Repositories</a>
 
 - 💬 Ask me about **React , APIs , Alogorithm**
 
-- 📫 How to reach me  **tomarvivek90viv@gmail.com**
+- 📫 How to reach me -->  **tomarvivek90viv@gmail.com**
 
-- 📄 Know about my experiences<a href="https://drive.google.com/file/d/1iWci0tjpfDDdW8ZHJ0a03ODLgsXk1wAV/view?usp=share_link" target="_blank">Resume</a>
+- 📄 Know about my experiences --><a href="https://drive.google.com/file/d/1iWci0tjpfDDdW8ZHJ0a03ODLgsXk1wAV/view?usp=share_link" target="_blank">Resume</a>
 
-- <a href="https://vivektomar03.github.io/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgUvdQJ35gsi7Kn6kUPc55TPse0cfJeHwMKxxveiIo92qTSWi3ihoUS3Ut1jDq4ctiAA&usqp=CAU" width="120px"/></a>
+- My Portfolio -->  <a href="https://vivektomar03.github.io/" target="_blank" margin-top="5px"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgUvdQJ35gsi7Kn6kUPc55TPse0cfJeHwMKxxveiIo92qTSWi3ihoUS3Ut1jDq4ctiAA&usqp=CAU" width="120px" /></a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
