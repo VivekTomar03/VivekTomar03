@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">Hi 👋, I'm Vivek Singh Tomar</h1>
-<h3 align="center">Learning Web Development From Masai (MERN)</h3>
+<h3 align="center">An aspiring fullstack MERN Developer. I love to make projects with HTML, CSS, React JS, Redux, NodeJS, ExpressJS and MongoDB which are helpful for masses and serve as a great helpful entity.</h3>
   
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vivektomar03&label=Profile%20views&color=0e75b6&style=flat" alt="vivektomar03" /> </p>
 
