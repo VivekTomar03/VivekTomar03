@@ -4,8 +4,12 @@
 </br>
 <img align="left" src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="40px"
      </br>
+     </br>
+<img align="right" src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="40px"
+     </br>
 <h1 align="center"><TT >Hi 👋, I'm Vivek Singh Tomar</TT></h1>
-<img src"https://media.tenor.com/kQ6QxWJYTQ4AAAAC/rgb.gif" height="20px"/>
+
+<!-- <img src="https://media.tenor.com/kQ6QxWJYTQ4AAAAC/rgb.gif" height="20px"/> -->
 <h3 align="center">An aspiring fullstack MERN Developer. I love to make projects with HTML, CSS, React JS, Redux, NodeJS, ExpressJS and MongoDB which are helpful for masses and serve as a great helpful entity.</h3>
   
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vivektomar03&label=Profile%20views&color=0e75b6&style=flat" alt="vivektomar03" /> </p>
