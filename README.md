@@ -1,5 +1,4 @@
 
-
 <h1 align="center"><TT >Hi 👋, I'm Vivek Singh Tomar</TT></h1>
 
 <!-- <img src="https://media.tenor.com/kQ6QxWJYTQ4AAAAC/rgb.gif" height="20px"/> -->
