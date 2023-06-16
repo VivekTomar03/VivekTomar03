@@ -1,6 +1,5 @@
 
 <h1 align="center"><TT >Hi 👋, I'm Vivek Singh Tomar</TT></h1>
-
 <!-- <img src="https://media.tenor.com/kQ6QxWJYTQ4AAAAC/rgb.gif" height="20px"/> -->
 <h3 align="center">An aspiring fullstack MERN Developer. I love to make projects with HTML, CSS, React JS, Redux, NodeJS, ExpressJS and MongoDB which are helpful for masses and serve as a great helpful entity.</h3>
 
