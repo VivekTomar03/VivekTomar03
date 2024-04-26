@@ -3,7 +3,7 @@
 </div>
 <h1 align="center"><TT >Hi 👋, I'm Vivek Singh Tomar</TT></h1>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" height="20px"/>
-<h3 align="center">An aspiring fullstack MERN Developer. I love to make projects with HTML, CSS, React JS, Redux, NodeJS, ExpressJS and MongoDB which are helpful for masses and serve as a great helpful entity.</h3>
+<h3 align="center">Fullstack MERN Developer. I love to make projects with HTML, CSS, React JS, Redux, NodeJS, ExpressJS and MongoDB which are helpful for masses and serve as a great helpful entity.</h3>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" height="20px"/>
 
 
