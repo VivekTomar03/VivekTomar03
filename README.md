@@ -1,5 +1,5 @@
   <div id="header" align="center">
-
+<img  src="./banner1.png"/>
 </div>
 <h1 align="center"><TT >Hi 👋, I'm Vivek Singh Tomar</TT></h1>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" height="20px"/>
