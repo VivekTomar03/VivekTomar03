@@ -1,4 +1,4 @@
-  <div id="header" align="center">
+  <div id="header" align="center"> 
 <img  src="./banner1.png"/> 
 </div>
 <h1 align="center"><TT >Hi 👋, I'm Vivek Singh Tomar</TT></h1>
