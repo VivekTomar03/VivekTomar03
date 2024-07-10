@@ -34,7 +34,6 @@
     <a href="https://www.linkedin.com/in/vivek7410/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/vivek7410/" height="30" width="40" /></a>
     <a href="https://codesandbox.com/https://codesandbox.io/u/vivektomar03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="https://codesandbox.io/u/vivektomar03" height="30" width="40" /></a>
     
-   
 <p align="center">
   <img width="300px" height="300px" src="https://i.pinimg.com/564x/55/39/8b/55398b80d2b3d3e43327a1626013d14e.jpg" >
 </p>
