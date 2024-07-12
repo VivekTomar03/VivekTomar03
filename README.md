@@ -14,6 +14,7 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" height="20px"/>
+
 - 🌱 I’m currently learning **Mern**
  
 - 👨‍💻 All of my projects are available at --> <a href="https://github.com/VivekTomar03?tab=repositories" target="_blank">Repositories</a>
