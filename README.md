@@ -136,7 +136,7 @@ const vivek = {
 <td width="50%">
 
 #### 🚀 Full Stack Developer
-**CodSoft** | *July 2024 - Present*
+**Galific** | *August 2024 - Present*
 
 - 💻 Developed and maintained web applications using **React, Node.js, and MongoDB**
 - 🤝 Collaborated with cross-functional teams to deliver high-quality software solutions
@@ -153,12 +153,12 @@ const vivek = {
 <tr>
 <td width="50%">
 
-#### 🏫 Bachelor of Technology (B.Tech)
+#### 🏫 Bachelor of Computer Applications (BCA)
 **Computer Science Engineering**
 
-*JSS Academy Of Technical Education, Noida*
+*Vikram University, Ujjain Madhya Pradesh*
 
-📅 **2021 - 2025**
+📅 **2014 - 2017**
 
 **📚 Relevant Coursework:**
 - Data Structures & Algorithms
@@ -275,6 +275,6 @@ const vivek = {
   **✨ Crafted with 💙 by Vivek Singh Tomar ✨**
   
   ![Made with Love](https://img.shields.io/badge/Made%20with-Love-ff69b4?style=for-the-badge)
-  ![Powered by Coffee](https://img.shields.io/badge/Powered%20by-Coffee-brown?style=for-the-badge&logo=buy-me-a-coffee)
+
   
 </div>
