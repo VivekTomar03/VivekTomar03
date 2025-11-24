@@ -76,6 +76,77 @@ const vivek = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+## 🚀 Featured Projects
+
+<div align="center">
+
+### 🤖 AI Image Generation App
+
+<img src="https://img.shields.io/badge/MERN-Stack-success?style=for-the-badge" alt="MERN Stack"/>
+<img src="https://img.shields.io/badge/OpenAI-API-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+<img src="https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge" alt="Status"/>
+
+A cutting-edge MERN stack application that harnesses the power of AI to generate unique, stunning images from text prompts using the OpenAI API. Features include secure user authentication, intelligent prompt-based image generation, and a beautiful gallery to showcase AI-generated masterpieces.
+
+**🛠️ Tech Stack:**
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-FF4088?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/VivekTomar03)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VivekTomar03)
+
+---
+
+### 🎨 3D Portfolio Website
+
+<img src="https://img.shields.io/badge/React-Three.js-61DAFB?style=for-the-badge" alt="React Three"/>
+<img src="https://img.shields.io/badge/3D-Interactive-orange?style=for-the-badge" alt="3D"/>
+<img src="https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge" alt="Status"/>
+
+A visually stunning, immersive 3D portfolio website built with React, Three.js, and React Three Fiber. Experience interactive 3D models, buttery-smooth animations, and a fully responsive design that brings projects and skills to life in an engaging, unforgettable way.
+
+**🛠️ Tech Stack:**
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-FF4088?style=for-the-badge&logo=netlify&logoColor=white)](https://vivek-portfolio-3d.netlify.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VivekTomar03)
+
+---
+
+### 🛒 E-commerce Website
+
+<img src="https://img.shields.io/badge/Full-Stack-blue?style=for-the-badge" alt="Full Stack"/>
+<img src="https://img.shields.io/badge/Payment-Integrated-success?style=for-the-badge" alt="Payment"/>
+<img src="https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge" alt="Status"/>
+
+A comprehensive, full-featured e-commerce platform built with the MERN stack. Includes robust user authentication, dynamic product catalog, intelligent shopping cart, seamless order management, and secure payment gateway integration powered by Stripe for a complete online shopping experience.
+
+**🛠️ Tech Stack:**
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-FF4088?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/VivekTomar03)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VivekTomar03)
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ## 💻 Tech Stack
 
 <div align="center">
