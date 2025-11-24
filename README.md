@@ -234,7 +234,7 @@ const vivek = {
   
   <br/>
   
-  📧 **Email:** tomarvivek90viv@gmail.com | 📱 **Phone:** +91 7410902100 | 📍 **Location:** Noida, Uttar Pradesh, India
+  📧 **Email:** tomarvivek90viv@gmail.com | | 📍 **Location:** Indore, Madhya Pradesh, India
   
 </div>
 
