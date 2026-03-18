@@ -2,7 +2,7 @@
    
   <!-- Animated Banner -->
   <img src="./banner1.png" alt="Banner" width="100%"/>
-     
+      
   <!-- Animated Wave -->
   <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
   
