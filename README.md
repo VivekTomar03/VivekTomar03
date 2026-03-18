@@ -1,6 +1,6 @@
 <div align="center"> 
    
-  <!-- Animated Banner --> 
+  <!-- Animated Banner -->
   <img src="./banner1.png" alt="Banner" width="100%"/>
   
   <!-- Animated Wave -->
