@@ -1,0 +1,287 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="about-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b16"/>
+      <stop offset="50%" stop-color="#0a1024"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+    <linearGradient id="about-border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#247bff"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#ff354f"/>
+    </linearGradient>
+    <linearGradient id="about-bar-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#247bff"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <!-- Dot Texture Pattern -->
+    <pattern id="about-dot-pattern" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#247bff" fill-opacity="0.10"/>
+    </pattern>
+
+    <clipPath id="bar-clip-1">
+      <rect x="0" y="0" width="112" height="4" rx="2"/>
+    </clipPath>
+    <clipPath id="bar-clip-2">
+      <rect x="0" y="0" width="112" height="4" rx="2"/>
+    </clipPath>
+    <clipPath id="bar-clip-3">
+      <rect x="0" y="0" width="112" height="4" rx="2"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .about-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif; }
+    .mono-font { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+
+    /* 12-second Carousel Cycle (4s each slide) - OPACITY ONLY, NO TRANSFORM OVERRIDE */
+    @keyframes barFill1 {
+      0% { width: 0px; }
+      28%, 33.33% { width: 112px; }
+      34%, 100% { width: 0px; }
+    }
+    @keyframes barFill2 {
+      0%, 33.33% { width: 0px; }
+      34% { width: 0px; }
+      61.33%, 66.66% { width: 112px; }
+      67.33%, 100% { width: 0px; }
+    }
+    @keyframes barFill3 {
+      0%, 66.66% { width: 0px; }
+      67.33% { width: 0px; }
+      94.66%, 100% { width: 112px; }
+    }
+
+    @keyframes slide1Fade {
+      0%, 30% { opacity: 1; visibility: visible; }
+      33.33%, 97% { opacity: 0; visibility: hidden; }
+      100% { opacity: 1; visibility: visible; }
+    }
+    @keyframes slide2Fade {
+      0%, 31% { opacity: 0; visibility: hidden; }
+      34.33%, 63% { opacity: 1; visibility: visible; }
+      66.66%, 100% { opacity: 0; visibility: hidden; }
+    }
+    @keyframes slide3Fade {
+      0%, 64% { opacity: 0; visibility: hidden; }
+      67.33%, 96% { opacity: 1; visibility: visible; }
+      99.33%, 100% { opacity: 0; visibility: hidden; }
+    }
+
+    .slide-fade-1 { animation: slide1Fade 12s infinite; animation-fill-mode: both; }
+    .slide-fade-2 { animation: slide2Fade 12s infinite; animation-fill-mode: both; }
+    .slide-fade-3 { animation: slide3Fade 12s infinite; animation-fill-mode: both; }
+  </style>
+
+  <!-- Card Canvas -->
+  <rect x="2" y="2" width="896" height="446" rx="24" fill="url(#about-bg-grad)"/>
+  <rect x="2" y="2" width="896" height="446" rx="24" fill="url(#about-dot-pattern)"/>
+  <rect x="2" y="2" width="896" height="446" rx="24" stroke="url(#about-border-grad)" stroke-width="1.5" fill="none"/>
+
+  <!-- Divider Line -->
+  <line x1="450" y1="40" x2="450" y2="410" stroke="#247bff" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- ================= LEFT COLUMN: CAPABILITIES ================= -->
+  <g transform="translate(45, 40)">
+    <!-- Section Header -->
+    <text x="0" y="0" fill="#38bdf8" class="mono-font" font-size="11.5" font-weight="700" letter-spacing="1.5">
+      // 01 ARCHITECTURE &amp; EXPERTISE
+    </text>
+    <text x="0" y="26" fill="#ffffff" class="about-font" font-size="21" font-weight="800" letter-spacing="-0.3">
+      Full-Stack Engineering
+    </text>
+
+    <!-- Capability 1: Full-Stack MERN -->
+    <g transform="translate(0, 48)">
+      <rect x="0" y="0" width="370" height="64" rx="12" fill="#0b162f" stroke="#247bff" stroke-width="1" stroke-opacity="0.35"/>
+      <rect x="12" y="14" width="36" height="36" rx="8" fill="#0f2147"/>
+      <!-- React Atom Icon -->
+      <circle cx="30" cy="32" r="3" fill="#38bdf8"/>
+      <ellipse cx="30" cy="32" rx="11" ry="4" fill="none" stroke="#38bdf8" stroke-width="1.2"/>
+      <ellipse cx="30" cy="32" rx="11" ry="4" transform="rotate(60 30 32)" fill="none" stroke="#38bdf8" stroke-width="1.2"/>
+      <ellipse cx="30" cy="32" rx="11" ry="4" transform="rotate(-60 30 32)" fill="none" stroke="#38bdf8" stroke-width="1.2"/>
+
+      <text x="60" y="27" fill="#f8fafc" class="about-font" font-size="13.5" font-weight="700">Full Stack MERN Architecture</text>
+      <text x="60" y="45" fill="#94a3b8" class="about-font" font-size="11">React JS, Redux Toolkit, Node.js &amp; Express APIs</text>
+    </g>
+
+    <!-- Capability 2: AI & RAG Chatbots -->
+    <g transform="translate(0, 122)">
+      <rect x="0" y="0" width="370" height="64" rx="12" fill="#0b162f" stroke="#ff354f" stroke-width="1" stroke-opacity="0.35"/>
+      <rect x="12" y="14" width="36" height="36" rx="8" fill="#2d1222"/>
+      <!-- Sparkle / AI Vector -->
+      <path d="M 30,22 L 32,29 L 39,31 L 32,33 L 30,40 L 28,33 L 21,31 L 28,29 Z" fill="#fb7185"/>
+
+      <text x="60" y="27" fill="#f8fafc" class="about-font" font-size="13.5" font-weight="700">Generative AI &amp; RAG Systems</text>
+      <text x="60" y="45" fill="#94a3b8" class="about-font" font-size="11">LangChain, Gemini API, Vector Search &amp; Agents</text>
+    </g>
+
+    <!-- Capability 3: Databases & Cloud -->
+    <g transform="translate(0, 196)">
+      <rect x="0" y="0" width="370" height="64" rx="12" fill="#0b162f" stroke="#247bff" stroke-width="1" stroke-opacity="0.35"/>
+      <rect x="12" y="14" width="36" height="36" rx="8" fill="#0a241d"/>
+      <!-- Database Cylinders -->
+      <ellipse cx="30" cy="24" rx="9" ry="3" fill="none" stroke="#34d399" stroke-width="1.2"/>
+      <path d="M 21,24 L 21,37 A 9,3 0 0,0 39,37 L 39,24 M 21,30 A 9,3 0 0,0 39,30" fill="none" stroke="#34d399" stroke-width="1.2"/>
+
+      <text x="60" y="27" fill="#f8fafc" class="about-font" font-size="13.5" font-weight="700">MongoDB Atlas &amp; RESTful APIs</text>
+      <text x="60" y="45" fill="#94a3b8" class="about-font" font-size="11">Schema optimization, authentication &amp; data pipelines</text>
+    </g>
+
+    <!-- Capability 4: Modern UI / Component Systems -->
+    <g transform="translate(0, 270)">
+      <rect x="0" y="0" width="370" height="64" rx="12" fill="#0b162f" stroke="#247bff" stroke-width="1" stroke-opacity="0.35"/>
+      <rect x="12" y="14" width="36" height="36" rx="8" fill="#1b1c35"/>
+      <!-- Layers / Design Vector -->
+      <polygon points="30,22 39,26 30,30 21,26" fill="none" stroke="#818cf8" stroke-width="1.2"/>
+      <path d="M 21,29 L 30,33 L 39,29" fill="none" stroke="#818cf8" stroke-width="1.2"/>
+      <path d="M 21,34 L 30,38 L 39,34" fill="none" stroke="#818cf8" stroke-width="1.2"/>
+
+      <text x="60" y="27" fill="#f8fafc" class="about-font" font-size="13.5" font-weight="700">Modern UI &amp; Component Systems</text>
+      <text x="60" y="45" fill="#94a3b8" class="about-font" font-size="11">Tailwind CSS, Chakra UI, Material UI &amp; TypeScript</text>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT COLUMN: INTERESTS CAROUSEL ================= -->
+  <g transform="translate(485, 40)">
+    <!-- Header with 4-second Segment Progress Bars -->
+    <text x="0" y="0" fill="#ff354f" class="mono-font" font-size="11.5" font-weight="700" letter-spacing="1.5">
+      // 02 FEATURED DOMAINS &amp; PASSIONS
+    </text>
+    <text x="0" y="26" fill="#ffffff" class="about-font" font-size="21" font-weight="800" letter-spacing="-0.3">
+      Product Innovations
+    </text>
+
+    <!-- 3 Segment Bars -->
+    <g transform="translate(0, 42)">
+      <!-- Bar 1 -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="112" height="4" rx="2" fill="#1e293b"/>
+        <g clip-path="url(#bar-clip-1)">
+          <rect x="0" y="0" width="0" height="4" fill="url(#about-bar-grad)" style="animation: barFill1 12s linear infinite;"/>
+        </g>
+      </g>
+      <!-- Bar 2 -->
+      <g transform="translate(126, 0)">
+        <rect x="0" y="0" width="112" height="4" rx="2" fill="#1e293b"/>
+        <g clip-path="url(#bar-clip-2)">
+          <rect x="0" y="0" width="0" height="4" fill="url(#about-bar-grad)" style="animation: barFill2 12s linear infinite;"/>
+        </g>
+      </g>
+      <!-- Bar 3 -->
+      <g transform="translate(252, 0)">
+        <rect x="0" y="0" width="112" height="4" rx="2" fill="#1e293b"/>
+        <g clip-path="url(#bar-clip-3)">
+          <rect x="0" y="0" width="0" height="4" fill="url(#about-bar-grad)" style="animation: barFill3 12s linear infinite;"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- Carousel Container Box -->
+    <rect x="0" y="60" width="370" height="274" rx="16" fill="#09132a" stroke="#247bff" stroke-width="1" stroke-opacity="0.3"/>
+
+    <!-- SLIDE 1: AI Chatbots & RAG (0s - 4s) -->
+    <g transform="translate(24, 82)">
+      <g class="slide-fade-1">
+        <rect x="0" y="0" width="46" height="46" rx="12" fill="#31102b" stroke="#e11d48" stroke-width="1"/>
+        <path d="M 23,13 L 25,20 L 32,22 L 25,24 L 23,31 L 21,24 L 14,22 L 21,20 Z" fill="#fb7185"/>
+        <text x="60" y="18" fill="#fb7185" class="mono-font" font-size="11" font-weight="700">INNOVATION 01 // GEN-AI</text>
+        <text x="60" y="38" fill="#ffffff" class="about-font" font-size="16" font-weight="800">AI PDF Chat &amp; RAG Pipelines</text>
+
+        <text x="0" y="76" fill="#cbd5e1" class="about-font" font-size="13" line-height="1.5">
+          Multi-user full-stack PDF retrieval chatbot leveraging
+        </text>
+        <text x="0" y="96" fill="#94a3b8" class="about-font" font-size="13">
+          LangChain, @google/genai SDK, and MongoDB Atlas
+        </text>
+        <text x="0" y="116" fill="#94a3b8" class="about-font" font-size="13">
+          Vector Search for instantaneous context-aware queries.
+        </text>
+
+        <!-- Project Tags -->
+        <g transform="translate(0, 145)">
+          <rect x="0" y="0" width="90" height="26" rx="8" fill="#1e293b"/>
+          <text x="12" y="17" fill="#fb7185" class="mono-font" font-size="11" font-weight="600">Gemini API</text>
+          <rect x="100" y="0" width="85" height="26" rx="8" fill="#1e293b"/>
+          <text x="112" y="17" fill="#38bdf8" class="mono-font" font-size="11" font-weight="600">LangChain</text>
+          <rect x="195" y="0" width="105" height="26" rx="8" fill="#1e293b"/>
+          <text x="207" y="17" fill="#34d399" class="mono-font" font-size="11" font-weight="600">Vector Search</text>
+        </g>
+
+        <text x="0" y="202" fill="#64748b" class="mono-font" font-size="11">
+          Live: <tspan fill="#38bdf8">ai-pdf-chat-fe.vercel.app</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- SLIDE 2: Intelligent E-Commerce (4s - 8s) -->
+    <g transform="translate(24, 82)">
+      <g class="slide-fade-2">
+        <rect x="0" y="0" width="46" height="46" rx="12" fill="#042f2e" stroke="#14b8a6" stroke-width="1"/>
+        <path d="M 16,18 L 19,18 L 22,30 L 32,30 L 34,22 L 20,22 M 23,34 A 2,2 0 1,0 23,34.1 M 31,34 A 2,2 0 1,0 31,34.1" fill="none" stroke="#2dd4bf" stroke-width="1.4"/>
+        <text x="60" y="18" fill="#2dd4bf" class="mono-font" font-size="11" font-weight="700">ECOMMERCE 02 // PLATFORMS</text>
+        <text x="60" y="38" fill="#ffffff" class="about-font" font-size="16" font-weight="800">ShoeMart &amp; CaratLane Clone</text>
+
+        <text x="0" y="76" fill="#cbd5e1" class="about-font" font-size="13">
+          Next-gen retail ecosystems featuring AI-powered
+        </text>
+        <text x="0" y="96" fill="#94a3b8" class="about-font" font-size="13">
+          virtual try-ons, real-time logistics, Redux state
+        </text>
+        <text x="0" y="116" fill="#94a3b8" class="about-font" font-size="13">
+          management, and responsive client-admin workflows.
+        </text>
+
+        <!-- Project Tags -->
+        <g transform="translate(0, 145)">
+          <rect x="0" y="0" width="85" height="26" rx="8" fill="#1e293b"/>
+          <text x="14" y="17" fill="#2dd4bf" class="mono-font" font-size="11" font-weight="600">React JS</text>
+          <rect x="95" y="0" width="105" height="26" rx="8" fill="#1e293b"/>
+          <text x="107" y="17" fill="#a78bfa" class="mono-font" font-size="11" font-weight="600">Redux Toolkit</text>
+          <rect x="210" y="0" width="90" height="26" rx="8" fill="#1e293b"/>
+          <text x="222" y="17" fill="#60a5fa" class="mono-font" font-size="11" font-weight="600">Tailwind</text>
+        </g>
+
+        <text x="0" y="202" fill="#64748b" class="mono-font" font-size="11">
+          Live: <tspan fill="#2dd4bf">shoe-mart-ai.netlify.app</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- SLIDE 3: AI Interview & Reputation Engines (8s - 12s) -->
+    <g transform="translate(24, 82)">
+      <g class="slide-fade-3">
+        <rect x="0" y="0" width="46" height="46" rx="12" fill="#1e1b4b" stroke="#6366f1" stroke-width="1"/>
+        <path d="M 23,15 L 29,19 L 29,27 L 23,31 L 17,27 L 17,19 Z" fill="none" stroke="#818cf8" stroke-width="1.4"/>
+        <text x="60" y="18" fill="#38bdf8" class="mono-font" font-size="11" font-weight="700">AI TOOLS 03 // TECH-BUDDY</text>
+        <text x="60" y="38" fill="#ffffff" class="about-font" font-size="16" font-weight="800">Tech-Buddy &amp; Marty-QR</text>
+
+        <text x="0" y="76" fill="#cbd5e1" class="about-font" font-size="13">
+          AI-powered technical mock interview simulator with live
+        </text>
+        <text x="0" y="96" fill="#94a3b8" class="about-font" font-size="13">
+          coding rounds, adaptive prompts, voice assessment, and
+        </text>
+        <text x="0" y="116" fill="#94a3b8" class="about-font" font-size="13">
+          automated review engines converting vibes to 5★ ratings.
+        </text>
+
+        <!-- Project Tags -->
+        <g transform="translate(0, 145)">
+          <rect x="0" y="0" width="95" height="26" rx="8" fill="#1e293b"/>
+          <text x="14" y="17" fill="#60a5fa" class="mono-font" font-size="11" font-weight="600">Tech-Buddy</text>
+          <rect x="105" y="0" width="85" height="26" rx="8" fill="#1e293b"/>
+          <text x="117" y="17" fill="#38bdf8" class="mono-font" font-size="11" font-weight="600">Marty-QR</text>
+          <rect x="200" y="0" width="85" height="26" rx="8" fill="#1e293b"/>
+          <text x="214" y="17" fill="#f43f5e" class="mono-font" font-size="11" font-weight="600">Node API</text>
+        </g>
+
+        <text x="0" y="202" fill="#64748b" class="mono-font" font-size="11">
+          Live: <tspan fill="#38bdf8">tech-buddy-ai.netlify.app</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

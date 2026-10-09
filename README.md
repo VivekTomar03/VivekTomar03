@@ -1,280 +1,199 @@
 <div align="center">
-  
-  <!-- Animated Banner -->
-  <img src="./banner2.png" alt="Banner" width="100%"/>
-  
-  <!-- Animated Wave -->
-  <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
-  
-  <!-- Animated Typing SVG -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey+There+%F0%9F%91%8B%2C+I'm+Vivek+Singh+Tomar;Full+Stack+MERN+Developer+%F0%9F%9A%80;Passionate+About+Building+Web+Apps+%F0%9F%92%BB;React+%7C+Node.js+%7C+MongoDB+Expert+%E2%9A%A1;Always+Learning+New+Technologies+%F0%9F%93%9A" alt="Typing SVG" />
+
+  <!-- 1. HERO INTRO SECTION -->
+  <a href="https://vivek-portfolio-3d.netlify.app/">
+    <img src="./assets/hero.svg?v=2" alt="Vivek Singh Tomar - Full Stack Developer" width="100%" />
   </a>
-  
-  <br/>
-  
-  <!-- Animated GIF -->
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" alt="Coding GIF"/>
-  
+
   <br/><br/>
-  
-  <!-- Profile Views Counter with Animation -->
-  <img src="https://komarev.com/ghpvc/?username=vivektomar03&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
-  
-  <!-- GitHub Followers -->
-  <img src="https://img.shields.io/github/followers/VivekTomar03?label=Followers&style=for-the-badge&color=blue" alt="GitHub Followers" />
-  
-  <!-- GitHub Stars -->
-  <img src="https://img.shields.io/github/stars/VivekTomar03?label=Stars&style=for-the-badge&color=yellow" alt="GitHub Stars" />
 
-</div>
+  <!-- 2. CORE CAPABILITIES & INNOVATIONS CAROUSEL -->
+  <img src="./assets/about-life.svg?v=2" alt="Engineering Capabilities and Project Focus" width="100%" />
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+  <br/><br/>
 
-## 🚀 About Me
+  <!-- 3. ORBITAL TECH STACK & ECOSYSTEM -->
+  <img src="./assets/stack.svg?v=2" alt="Orbital Tech Stack and Planetary Ecosystem" width="100%" />
 
-```javascript
-const vivek = {
-    pronouns: "He" | "Him",
-    code: ["JavaScript", "TypeScript", "HTML", "CSS", "Python"],
-    askMeAbout: ["Web Dev", "Tech", "MERN Stack", "APIs", "Algorithms"],
-    technologies: {
-        frontEnd: {
-            js: ["React", "Redux", "Next.js"],
-            css: ["Tailwind", "Bootstrap", "Material-UI", "Styled Components"]
-        },
-        backEnd: {
-            js: ["Node.js", "Express"],
-            databases: ["MongoDB", "MySQL", "PostgreSQL"]
-        },
-        devOps: ["Git", "GitHub Actions", "Docker", "Netlify", "Vercel"],
-        tools: ["Postman", "VS Code", "Figma", "Webpack"]
-    },
-    currentFocus: "Building scalable full-stack applications",
-    funFact: "I debug with console.log() and I'm not ashamed! 😄"
-};
-```
+  <br/><br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+  <!-- 4. VERIFIED CREDENTIALS & ID DASHBOARD -->
+  <img src="./assets/id-dashboard.svg?v=2" alt="Verified Identity Dashboard & Engineering Pass" width="100%" />
 
-## 🎯 What I'm Up To
+  <br/><br/>
 
-- 🔭 Currently working on **Full Stack MERN Projects**
-- 🌱 Learning **Advanced React Patterns & Microservices**
-- 👯 Looking to collaborate on **Open Source Projects**
-- 💬 Ask me about **React, Node.js, APIs, Algorithms**
-- 📫 Reach me at **tomarvivek90viv@gmail.com**
-- ⚡ Fun fact: **I think debugging is like being a detective in a crime movie where you're also the murderer!**
+  <!-- 5. CONNECT & CONTACT SECTION -->
+  <img src="./assets/connect.svg?v=2" alt="Connect with Vivek Singh Tomar" width="100%" />
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=vivektomar03&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies"/>
-</div>
-
-
-
-## 💻 Tech Stack
-
-<div align="center">
-
-### 🎨 Frontend
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-<!-- ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) -->
-![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
-![Chakra UI](https://img.shields.io/badge/Chakra_UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)
-
-### ⚙️ Backend
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-<!-- ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) -->
-
-### 🎨 3D & Animation
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-
-### 🤖 AI & Emerging Tech
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Generative AI](https://img.shields.io/badge/Generative_AI-FF6F00?style=for-the-badge&logo=ai&logoColor=white)
-
-### 🛠️ Tools & DevOps
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-<!-- ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) -->
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
-<!-- ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black) -->
-<!-- ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) -->
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## � Experience & Education
-
-<div align="center">
-
-### 👨‍💻 Work Experience
-
-<table>
-<tr>
-<td width="50%">
-
-#### 🚀 Full Stack Developer
-**Galific** | *August 2024 - Present*
-
-- 💻 Developed and maintained web applications using **React, Node.js, and MongoDB**
-- 🤝 Collaborated with cross-functional teams to deliver high-quality software solutions
-- 📱 Implemented responsive designs and ensured cross-browser compatibility
-- ⚡ Optimized application performance and user experience
-
-</td>
-</tr>
-</table>
-
-### 🎓 Education
-
-<table>
-<tr>
-<td width="50%">
-
-#### 🏫 Bachelor of Computer Applications (BCA)
-**Computer Science Engineering**
-
-*Vikram University, Ujjain Madhya Pradesh*
-
-📅 **2014 - 2017**
-
-**📚 Relevant Coursework:**
-- Data Structures & Algorithms
-- Web Development
-- Database Management Systems
-- Software Engineering
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## �📊 GitHub Stats
-
-<div align="center">
-  
-  <!-- GitHub Stats Card -->
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=vivektomar03&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866"/>
-  
-  <!-- GitHub Streak Stats -->
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=vivektomar03&theme=radical&hide_border=true&background=0D1117&stroke=F85D7F&ring=F85D7F&fire=F8D866&currStreakLabel=F8D866"/>
-  
-</div>
-
-<div align="center">
-  
-  <!-- Top Languages -->
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivektomar03&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&langs_count=8"/>
-  
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 📈 Contribution Graph
-
-<div align="center">
-  
-  <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vivektomar03&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=FFFFFF" alt="Contribution Graph"/>
-  
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  
-  <!-- Snake Animation -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VivekTomar03/VivekTomar03/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VivekTomar03/VivekTomar03/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/VivekTomar03/VivekTomar03/output/github-contribution-grid-snake.svg">
-  </picture>
-  
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 🌐 Connect With Me
-
-<div align="center">
-  
-  [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://vivek-portfolio-3d.netlify.app/)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek7410/)
-  [![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/VivekTomar03)
-  [![CodeSandbox](https://img.shields.io/badge/Codesandbox-040404?style=for-the-badge&logo=codesandbox&logoColor=DBDBDB)](https://codesandbox.io/u/vivektomar03)
-  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tomarvivek90viv@gmail.com)
-  [![Resume](https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/11EtYbNr4U93xYuxwI2VPvYyidMa9j9gJ/view?usp=drive_link)
-  
   <br/>
-  
-  📧 **Email:** tomarvivek90viv@gmail.com | | 📍 **Location:** Indore, Madhya Pradesh, India
-  
+
+  <!-- ================= REAL CLICKABLE ACTION HUBS ================= -->
+  <!-- Note: SVG image tags in GitHub README are sandboxed, so real clickable buttons are provided below -->
+  <a href="https://vivek-portfolio-3d.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_3D_Portfolio-070b16?style=for-the-badge&logoColor=38bdf8&labelColor=247bff" alt="3D Portfolio" />
+  </a>
+  &nbsp;
+  <a href="./assets/Vivek_Singh_Tomar_Resume.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/📄_Download_Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume PDF" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/vivek7410/" target="_blank">
+    <img src="https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/VivekTomar03" target="_blank">
+    <img src="https://img.shields.io/badge/🐙_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="https://codepen.io/VivekTomar03" target="_blank">
+    <img src="https://img.shields.io/badge/🖋️_CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen" />
+  </a>
+  &nbsp;
+  <a href="https://codesandbox.io/u/vivektomar03" target="_blank">
+    <img src="https://img.shields.io/badge/📦_CodeSandbox-151515?style=for-the-badge&logo=codesandbox&logoColor=white" alt="CodeSandbox" />
+  </a>
+  &nbsp;
+  <a href="mailto:tomarvivek90viv@gmail.com">
+    <img src="https://img.shields.io/badge/✉️_Email_Me-ff354f?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 💡 Random Dev Quote
-
-<div align="center">
-  
-  ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-  
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 😂 Random Dev Meme
-
-<div align="center">
-  
-  ![Meme](https://readme-jokes.vercel.app/api?theme=radical)
-  
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<div align="center">
-  
-  ### 💖 Show some ❤️ by starring some of my repositories!
-  
-  <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
-  
-</div>
+<br/>
 
 ---
 
-<div align="center">
-  
-  **✨ Crafted with 💙 by Vivek Singh Tomar ✨**
-  
-  ![Made with Love](https://img.shields.io/badge/Made%20with-Love-ff69b4?style=for-the-badge)
+### 🚀 Verified Production & AI Projects
 
-  
+<table>
+  <thead>
+    <tr>
+      <th width="32%">Project</th>
+      <th width="42%">Architecture & Highlights</th>
+      <th width="26%">Tech Stack & Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>🤖 AI PDF Chat</b><br/>
+        <sub>Multi-User PDF RAG Chatbot</sub>
+      </td>
+      <td>
+        Full-stack retrieval-augmented generation (RAG) platform allowing users to upload documents and query them contextually using vector search and generative intelligence.
+      </td>
+      <td>
+        <code>LangChain</code> <code>Gemini API</code> <code>MongoDB Atlas Vector</code> <code>React</code><br/><br/>
+        🔗 <a href="https://ai-pdf-chat-fe.vercel.app/" target="_blank"><b>Live Demo</b></a> • <a href="https://github.com/VivekTomar03/AI-Pdf-Chat-FE" target="_blank"><b>Code</b></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>👟 ShoeMart AI</b><br/>
+        <sub>Next-Gen Intelligent Retail</sub>
+      </td>
+      <td>
+        Modern e-commerce platform bridging digital shopping and reality through AI-powered virtual try-ons, real-time logistics, Redux state management, and an intelligent client-admin ecosystem.
+      </td>
+      <td>
+        <code>React</code> <code>Redux</code> <code>Tailwind CSS</code> <code>MongoDB</code> <code>Node.js</code><br/><br/>
+        🔗 <a href="https://shoe-mart-ai.netlify.app/" target="_blank"><b>Live Demo</b></a> • <a href="https://github.com/VivekTomar03/shoe-mart-FE" target="_blank"><b>Code</b></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>🎯 Tech-Buddy AI</b><br/>
+        <sub>Adaptive Technical Mock Interviews</sub>
+      </td>
+      <td>
+        AI interview simulator with dynamic technical questioning, live code execution sandbox, voice interaction, and comprehensive scoring metrics.
+      </td>
+      <td>
+        <code>React</code> <code>Redux</code> <code>Tailwind</code> <code>MongoDB</code> <code>Node.js</code><br/><br/>
+        🔗 <a href="https://tech-buddy-ai.netlify.app/" target="_blank"><b>Live Demo</b></a> • <a href="https://github.com/VivekTomar03/Tech-Buddy_FE" target="_blank"><b>Code</b></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>⭐ Marty-QR</b><br/>
+        <sub>AI-Powered Review & Reputation Engine</sub>
+      </td>
+      <td>
+        Context-engine platform that transforms in-person physical customer sentiment into high-converting 5★ Google reviews with super admin dashboards.
+      </td>
+      <td>
+        <code>React</code> <code>Redux</code> <code>Tailwind CSS</code> <code>Node.js</code> <code>MongoDB</code><br/><br/>
+        🔗 <a href="https://marty-qr.netlify.app/" target="_blank"><b>Live Demo</b></a> • <a href="https://github.com/VivekTomar03/Marty-QR" target="_blank"><b>Code</b></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>💎 CaratLane (Clone)</b><br/>
+        <sub>Scalable Luxury E-Commerce</sub>
+      </td>
+      <td>
+        Online jewelry store featuring role-based admin consoles, product sorting & filtering pipelines, user authentication, and persistent shopping cart flows.
+      </td>
+      <td>
+        <code>React</code> <code>Redux</code> <code>Chakra UI</code> <code>MongoDB Atlas</code> <code>Node.js</code><br/><br/>
+        🔗 <a href="https://inifinestoneclone.vercel.app/" target="_blank"><b>Live Demo</b></a> • <a href="https://github.com/VivekTomar03/CaratLane--Clone" target="_blank"><b>Code</b></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>🌌 3D Interactive Portfolio</b><br/>
+        <sub>Immersive Spatial Showcase</sub>
+      </td>
+      <td>
+        Personal brand portfolio featuring 3D interactive models, spatial lighting, real-time AI assistant, and dark mode cyberpunk visual craft.
+      </td>
+      <td>
+        <code>React</code> <code>Three.js</code> <code>Spline</code> <code>MUI</code> <code>Framer Motion</code><br/><br/>
+        🔗 <a href="https://vivek-portfolio-3d.netlify.app/" target="_blank"><b>Live Demo</b></a> • <a href="https://github.com/VivekTomar03" target="_blank"><b>Code</b></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br/>
+
+<div align="center">
+
+  <!-- GITHUB STATS & STREAK -->
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=vivektomar03&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=070b16&title_color=38bdf8&icon_color=ff354f&text_color=94a3b8" alt="GitHub Stats" />
+  &nbsp;
+  <img height="165em" src="https://github-readme-streak-stats.herokuapp.com/?user=vivektomar03&theme=radical&hide_border=true&background=070b16&stroke=247bff&ring=38bdf8&fire=ff354f&currStreakLabel=38bdf8&sideNums=ffffff&sideLabels=94a3b8" alt="GitHub Streak" />
+
+  <br/><br/>
+
+  <!-- TOP LANGUAGES -->
+  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivektomar03&layout=compact&theme=radical&hide_border=true&bg_color=070b16&title_color=38bdf8&text_color=94a3b8&langs_count=8" alt="Top Languages" />
+
+  <br/><br/>
+
+  <!-- PROFILE VIEWS COUNTER -->
+  <img src="https://komarev.com/ghpvc/?username=vivektomar03&label=Profile%20Views&color=247bff&style=for-the-badge" alt="Profile Views" />
+  &nbsp;
+  <img src="https://img.shields.io/github/followers/VivekTomar03?label=Followers&style=for-the-badge&color=ff354f" alt="Followers" />
+  &nbsp;
+  <img src="https://img.shields.io/github/stars/VivekTomar03?label=Stars&style=for-the-badge&color=fbbf24" alt="Stars" />
+
+  <br/><br/>
+
+  <!-- SNAKE CONTRIBUTION ANIMATION -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VivekTomar03/VivekTomar03/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VivekTomar03/VivekTomar03/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/VivekTomar03/VivekTomar03/output/github-contribution-grid-snake.svg">
+  </picture>
+
+  <br/><br/>
+
+  ---
+
+  <p>
+    <b>✨ Designed &amp; Engineered by Vivek Singh Tomar ✨</b><br/>
+    <sub>Built with The Profile Playbook Architecture • 100% Self-Contained SVG • Pure CSS &amp; SMIL Motion</sub>
+  </p>
+
 </div>

@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="stack-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b16"/>
+      <stop offset="50%" stop-color="#0a1024"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+    <linearGradient id="stack-border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#247bff"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#ff354f"/>
+    </linearGradient>
+
+    <!-- Radial Core Glow -->
+    <radialGradient id="core-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#38bdf8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#070b16" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Dot Texture Pattern -->
+    <pattern id="stack-dot-pattern" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#247bff" fill-opacity="0.10"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .stack-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif; }
+    .mono-font { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+
+    @keyframes coreGlowPulse {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+    @keyframes orbitDashMove {
+      to { stroke-dashoffset: -40; }
+    }
+    @keyframes nodeBreathe {
+      0%, 100% { opacity: 0.9; }
+      50% { opacity: 1; }
+    }
+
+    .core-pulse { animation: coreGlowPulse 3.5s ease-in-out infinite; }
+    .dash-stream { animation: orbitDashMove 25s linear infinite; }
+    .planet-node { animation: nodeBreathe 3s ease-in-out infinite; }
+  </style>
+
+  <!-- Card Canvas -->
+  <rect x="2" y="2" width="896" height="516" rx="24" fill="url(#stack-bg-grad)"/>
+  <rect x="2" y="2" width="896" height="516" rx="24" fill="url(#stack-dot-pattern)"/>
+  <rect x="2" y="2" width="896" height="516" rx="24" stroke="url(#stack-border-grad)" stroke-width="1.5" fill="none"/>
+
+  <!-- Header -->
+  <g transform="translate(45, 38)">
+    <text x="0" y="0" fill="#38bdf8" class="mono-font" font-size="11.5" font-weight="700" letter-spacing="1.5">
+      // 03 TECHNICAL UNIVERSE
+    </text>
+    <text x="0" y="26" fill="#ffffff" class="stack-font" font-size="21" font-weight="800" letter-spacing="-0.3">
+      Orbital Tech Stack &amp; Planetary Ecosystem
+    </text>
+  </g>
+
+  <!-- ================= ORBITAL SYSTEM (Center: 450, 195) ================= -->
+  <!-- Ambient Core Glow -->
+  <ellipse cx="450" cy="195" rx="140" ry="80" fill="url(#core-glow)" class="core-pulse"/>
+
+  <!-- Tilted Orbit Tracks (Tilt angle: -10deg) -->
+  <g transform="rotate(-10 450 195)">
+    <!-- Orbit 1 Track (Inner Core: rx=150, ry=50) -->
+    <ellipse cx="450" cy="195" rx="150" ry="50" fill="none" stroke="#247bff" stroke-width="1.2" stroke-dasharray="5 5" stroke-opacity="0.5" class="dash-stream"/>
+    <!-- Orbit 2 Track (Middle Frameworks: rx=240, ry=74) -->
+    <ellipse cx="450" cy="195" rx="240" ry="74" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="6 6" stroke-opacity="0.4" class="dash-stream"/>
+    <!-- Orbit 3 Track (Outer AI & Tools: rx=335, ry=96) -->
+    <ellipse cx="450" cy="195" rx="335" ry="96" fill="none" stroke="#ff354f" stroke-width="1.2" stroke-dasharray="7 7" stroke-opacity="0.35" class="dash-stream"/>
+  </g>
+
+  <!-- Core Hub -->
+  <g transform="translate(450, 195)">
+    <circle cx="0" cy="0" r="26" fill="#070d1e" stroke="#247bff" stroke-width="2"/>
+    <circle cx="0" cy="0" r="20" fill="#0c1a3b"/>
+    <text x="0" y="5" text-anchor="middle" fill="#38bdf8" class="mono-font" font-size="13" font-weight="900">&lt;V/&gt;</text>
+  </g>
+
+  <!-- ================= ORBIT 1 PLANETS (Inner: React, Node, TS, MongoDB) ================= -->
+  <!-- React JS Node -->
+  <g transform="translate(320, 185)" class="planet-node">
+    <circle cx="0" cy="0" r="14" fill="#0b1733" stroke="#61dafb" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="2" fill="#61dafb"/>
+    <ellipse cx="0" cy="0" rx="7" ry="2.5" fill="none" stroke="#61dafb" stroke-width="0.9"/>
+    <ellipse cx="0" cy="0" rx="7" ry="2.5" transform="rotate(60 0 0)" fill="none" stroke="#61dafb" stroke-width="0.9"/>
+    <ellipse cx="0" cy="0" rx="7" ry="2.5" transform="rotate(-60 0 0)" fill="none" stroke="#61dafb" stroke-width="0.9"/>
+    <rect x="-26" y="16" width="52" height="16" rx="8" fill="#081022" stroke="#61dafb" stroke-width="0.8"/>
+    <text x="0" y="27" text-anchor="middle" fill="#61dafb" class="mono-font" font-size="9" font-weight="700">React JS</text>
+  </g>
+
+  <!-- Node.js Node -->
+  <g transform="translate(580, 205)" class="planet-node">
+    <circle cx="0" cy="0" r="14" fill="#0b1733" stroke="#68a063" stroke-width="1.5"/>
+    <text x="0" y="4" text-anchor="middle" fill="#68a063" class="mono-font" font-size="10" font-weight="900">JS</text>
+    <rect x="-25" y="16" width="50" height="16" rx="8" fill="#081022" stroke="#68a063" stroke-width="0.8"/>
+    <text x="0" y="27" text-anchor="middle" fill="#68a063" class="mono-font" font-size="9" font-weight="700">Node.js</text>
+  </g>
+
+  <!-- TypeScript Node -->
+  <g transform="translate(450, 140)" class="planet-node">
+    <circle cx="0" cy="0" r="13" fill="#0b1733" stroke="#3178c6" stroke-width="1.5"/>
+    <text x="0" y="4" text-anchor="middle" fill="#60a5fa" class="mono-font" font-size="9" font-weight="900">TS</text>
+    <rect x="-20" y="15" width="40" height="15" rx="7" fill="#081022" stroke="#3178c6" stroke-width="0.8"/>
+    <text x="0" y="25" text-anchor="middle" fill="#60a5fa" class="mono-font" font-size="8.5" font-weight="700">TS</text>
+  </g>
+
+  <!-- MongoDB Node -->
+  <g transform="translate(450, 250)" class="planet-node">
+    <circle cx="0" cy="0" r="13" fill="#0b1733" stroke="#47a248" stroke-width="1.5"/>
+    <path d="M 0,-6 C 3,-2 3,3 0,6 C -3,3 -3,-2 0,-6 Z" fill="#47a248"/>
+    <rect x="-28" y="15" width="56" height="15" rx="7" fill="#081022" stroke="#47a248" stroke-width="0.8"/>
+    <text x="0" y="25" text-anchor="middle" fill="#47a248" class="mono-font" font-size="8.5" font-weight="700">MongoDB</text>
+  </g>
+
+  <!-- ================= ORBIT 2 PLANETS (Middle: Redux, Express, Tailwind, Chakra) ================= -->
+  <!-- Redux Toolkit Node -->
+  <g transform="translate(230, 215)" class="planet-node">
+    <circle cx="0" cy="0" r="14" fill="#0b1733" stroke="#764abc" stroke-width="1.5"/>
+    <path d="M -5,-3 C 0,-7 0,7 5,3" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+    <rect x="-26" y="16" width="52" height="16" rx="8" fill="#081022" stroke="#764abc" stroke-width="0.8"/>
+    <text x="0" y="27" text-anchor="middle" fill="#a78bfa" class="mono-font" font-size="8.5" font-weight="700">Redux</text>
+  </g>
+
+  <!-- Express.js Node -->
+  <g transform="translate(670, 175)" class="planet-node">
+    <circle cx="0" cy="0" r="14" fill="#0b1733" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="0" y="4" text-anchor="middle" fill="#ffffff" class="mono-font" font-size="9" font-weight="900">EX</text>
+    <rect x="-26" y="16" width="52" height="16" rx="8" fill="#081022" stroke="#cbd5e1" stroke-width="0.8"/>
+    <text x="0" y="27" text-anchor="middle" fill="#cbd5e1" class="mono-font" font-size="8.5" font-weight="700">Express</text>
+  </g>
+
+  <!-- Tailwind CSS Node -->
+  <g transform="translate(340, 115)" class="planet-node">
+    <circle cx="0" cy="0" r="13" fill="#0b1733" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="0" y="4" text-anchor="middle" fill="#38bdf8" class="mono-font" font-size="9" font-weight="900">TW</text>
+    <rect x="-24" y="15" width="48" height="15" rx="7" fill="#081022" stroke="#38bdf8" stroke-width="0.8"/>
+    <text x="0" y="25" text-anchor="middle" fill="#38bdf8" class="mono-font" font-size="8.5" font-weight="700">Tailwind</text>
+  </g>
+
+  <!-- Chakra / MUI Node -->
+  <g transform="translate(560, 275)" class="planet-node">
+    <circle cx="0" cy="0" r="13" fill="#0b1733" stroke="#319795" stroke-width="1.5"/>
+    <text x="0" y="4" text-anchor="middle" fill="#319795" class="mono-font" font-size="9" font-weight="900">UI</text>
+    <rect x="-28" y="15" width="56" height="15" rx="7" fill="#081022" stroke="#319795" stroke-width="0.8"/>
+    <text x="0" y="25" text-anchor="middle" fill="#2dd4bf" class="mono-font" font-size="8.5" font-weight="700">Chakra/MUI</text>
+  </g>
+
+  <!-- ================= ORBIT 3 PLANETS (Outer: Gemini AI, LangChain, Git, DSA) ================= -->
+  <!-- Gemini AI Node -->
+  <g transform="translate(135, 170)" class="planet-node">
+    <circle cx="0" cy="0" r="15" fill="#0b1733" stroke="#38bdf8" stroke-width="1.5"/>
+    <path d="M 0,-6 L 1.5,-1.5 L 6,0 L 1.5,1.5 L 0,6 L -1.5,1.5 L -6,0 L -1.5,-1.5 Z" fill="#38bdf8"/>
+    <rect x="-30" y="17" width="60" height="16" rx="8" fill="#081022" stroke="#38bdf8" stroke-width="0.8"/>
+    <text x="0" y="28" text-anchor="middle" fill="#38bdf8" class="mono-font" font-size="8.5" font-weight="700">Gemini AI</text>
+  </g>
+
+  <!-- LangChain & RAG Node -->
+  <g transform="translate(765, 220)" class="planet-node">
+    <circle cx="0" cy="0" r="15" fill="#0b1733" stroke="#f43f5e" stroke-width="1.5"/>
+    <text x="0" y="4" text-anchor="middle" fill="#f43f5e" class="mono-font" font-size="10" font-weight="900">🦜</text>
+    <rect x="-34" y="17" width="68" height="16" rx="8" fill="#081022" stroke="#f43f5e" stroke-width="0.8"/>
+    <text x="0" y="28" text-anchor="middle" fill="#fb7185" class="mono-font" font-size="8.5" font-weight="700">LangChain</text>
+  </g>
+
+  <!-- Git & GitHub Node -->
+  <g transform="translate(260, 270)" class="planet-node">
+    <circle cx="0" cy="0" r="13" fill="#0b1733" stroke="#f05032" stroke-width="1.5"/>
+    <circle cx="-3" cy="2" r="2" fill="#f05032"/>
+    <circle cx="3" cy="-2" r="2" fill="#f05032"/>
+    <line x1="-3" y1="2" x2="3" y2="-2" stroke="#f05032" stroke-width="1.2"/>
+    <rect x="-24" y="15" width="48" height="15" rx="7" fill="#081022" stroke="#f05032" stroke-width="0.8"/>
+    <text x="0" y="25" text-anchor="middle" fill="#f87171" class="mono-font" font-size="8.5" font-weight="700">Git / GH</text>
+  </g>
+
+  <!-- DSA Node -->
+  <g transform="translate(640, 115)" class="planet-node">
+    <circle cx="0" cy="0" r="13" fill="#0b1733" stroke="#fbbf24" stroke-width="1.5"/>
+    <text x="0" y="4" text-anchor="middle" fill="#fbbf24" class="mono-font" font-size="8" font-weight="900">DSA</text>
+    <rect x="-20" y="15" width="40" height="15" rx="7" fill="#081022" stroke="#fbbf24" stroke-width="0.8"/>
+    <text x="0" y="25" text-anchor="middle" fill="#fbbf24" class="mono-font" font-size="8.5" font-weight="700">DSA</text>
+  </g>
+
+  <!-- ================= BOTTOM: EXACT PORTFOLIO CATEGORY CHIPS ================= -->
+  <g transform="translate(45, 345)">
+    <!-- Column 1: Frontend Ecosystem -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="195" height="142" rx="14" fill="#0a1226" stroke="#247bff" stroke-width="1" stroke-opacity="0.35"/>
+      <text x="14" y="24" fill="#38bdf8" class="mono-font" font-size="11" font-weight="700">💻 FRONTEND</text>
+      <g transform="translate(14, 38)">
+        <text x="0" y="12" fill="#f8fafc" class="stack-font" font-size="11.5" font-weight="600">React JS • Redux Toolkit</text>
+        <text x="0" y="30" fill="#cbd5e1" class="stack-font" font-size="11">RTK Query • TypeScript</text>
+        <text x="0" y="48" fill="#94a3b8" class="stack-font" font-size="11">JavaScript (ES6+) • HTML/CSS</text>
+        <text x="0" y="66" fill="#60a5fa" class="stack-font" font-size="11">Tailwind CSS • Chakra UI</text>
+        <text x="0" y="84" fill="#93c5fd" class="stack-font" font-size="10.5">Material UI (MUI)</text>
+      </g>
+    </g>
+
+    <!-- Column 2: Backend & Database -->
+    <g transform="translate(205, 0)">
+      <rect x="0" y="0" width="195" height="142" rx="14" fill="#0a1226" stroke="#247bff" stroke-width="1" stroke-opacity="0.35"/>
+      <text x="14" y="24" fill="#34d399" class="mono-font" font-size="11" font-weight="700">⚙️ BACKEND &amp; DB</text>
+      <g transform="translate(14, 38)">
+        <text x="0" y="12" fill="#f8fafc" class="stack-font" font-size="11.5" font-weight="600">Node.js • Express.js</text>
+        <text x="0" y="30" fill="#cbd5e1" class="stack-font" font-size="11">MongoDB • Atlas Vector</text>
+        <text x="0" y="48" fill="#94a3b8" class="stack-font" font-size="11">RESTful API Architecture</text>
+        <text x="0" y="66" fill="#34d399" class="stack-font" font-size="11">Data Structures &amp; Algos</text>
+        <text x="0" y="84" fill="#6ee7b7" class="stack-font" font-size="10.5">NPM Ecosystem</text>
+      </g>
+    </g>
+
+    <!-- Column 3: AI & GenAI -->
+    <g transform="translate(410, 0)">
+      <rect x="0" y="0" width="195" height="142" rx="14" fill="#0a1226" stroke="#ff354f" stroke-width="1" stroke-opacity="0.35"/>
+      <text x="14" y="24" fill="#fb7185" class="mono-font" font-size="11" font-weight="700">🤖 AI &amp; GENAI</text>
+      <g transform="translate(14, 38)">
+        <text x="0" y="12" fill="#f8fafc" class="stack-font" font-size="11.5" font-weight="600">Gemini API (@genai SDK)</text>
+        <text x="0" y="30" fill="#cbd5e1" class="stack-font" font-size="11">LangChain Framework</text>
+        <text x="0" y="48" fill="#94a3b8" class="stack-font" font-size="11">RAG Vector Pipelines</text>
+        <text x="0" y="66" fill="#fb7185" class="stack-font" font-size="11">Prompt Engineering</text>
+        <text x="0" y="84" fill="#fda4af" class="stack-font" font-size="10.5">OpenAI API Integration</text>
+      </g>
+    </g>
+
+    <!-- Column 4: Tools & Cloud -->
+    <g transform="translate(615, 0)">
+      <rect x="0" y="0" width="195" height="142" rx="14" fill="#0a1226" stroke="#247bff" stroke-width="1" stroke-opacity="0.35"/>
+      <text x="14" y="24" fill="#fbbf24" class="mono-font" font-size="11" font-weight="700">🛠️ TOOLS &amp; CLOUD</text>
+      <g transform="translate(14, 38)">
+        <text x="0" y="12" fill="#f8fafc" class="stack-font" font-size="11.5" font-weight="600">Git &amp; GitHub</text>
+        <text x="0" y="30" fill="#cbd5e1" class="stack-font" font-size="11">VS Code • Postman</text>
+        <text x="0" y="48" fill="#94a3b8" class="stack-font" font-size="11">Vercel Deployment</text>
+        <text x="0" y="66" fill="#fbbf24" class="stack-font" font-size="11">Netlify Hosting</text>
+        <text x="0" y="84" fill="#fef08a" class="stack-font" font-size="10.5">Codesandbox</text>
+      </g>
+    </g>
+  </g>
+</svg>

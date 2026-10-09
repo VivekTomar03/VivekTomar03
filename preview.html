@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivek Singh Tomar — GitHub Profile Preview</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #010409;
+      color: #c9d1d9;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      padding: 24px;
+      line-height: 1.5;
+    }
+    .top-toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(13, 17, 23, 0.95);
+      backdrop-filter: blur(12px);
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 12px 20px;
+      max-width: 960px;
+      margin: 0 auto 24px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    }
+    .toolbar-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #58a6ff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .view-modes {
+      display: flex;
+      gap: 8px;
+    }
+    .btn {
+      background: #21262d;
+      color: #c9d1d9;
+      border: 1px solid #30363d;
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .btn:hover {
+      background: #30363d;
+      border-color: #8b949e;
+      color: #ffffff;
+    }
+    .btn.active {
+      background: #238636;
+      border-color: #2ea043;
+      color: #ffffff;
+    }
+    .container-wrapper {
+      max-width: 960px;
+      margin: 0 auto;
+      transition: max-width 0.3s ease;
+    }
+    .readme-box {
+      background-color: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+    }
+    .readme-header {
+      border-bottom: 1px solid #21262d;
+      padding-bottom: 12px;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #8b949e;
+      font-size: 13px;
+    }
+    .svg-section {
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    .svg-section img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(7, 11, 22, 0.8);
+      transition: transform 0.2s ease;
+    }
+    .svg-section img:hover {
+      transform: translateY(-2px);
+    }
+    .social-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 20px 0 32px 0;
+    }
+    .social-links a img {
+      height: 32px;
+      border-radius: 6px;
+      transition: transform 0.2s;
+    }
+    .social-links a:hover img {
+      transform: scale(1.05);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      font-size: 13px;
+    }
+    th, td {
+      border: 1px solid #30363d;
+      padding: 12px 14px;
+      text-align: left;
+    }
+    th {
+      background-color: #161b22;
+      color: #f0f6fc;
+      font-weight: 600;
+    }
+    td {
+      background-color: #0d1117;
+    }
+    code {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-size: 11px;
+      color: #79c0ff;
+    }
+    .badge-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin: 24px 0;
+    }
+    .footer-note {
+      text-align: center;
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid #21262d;
+      color: #8b949e;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Toolbar -->
+  <div class="top-toolbar">
+    <div class="toolbar-title">
+      <span>🚀 Vivek Singh Tomar — GitHub Profile Simulator</span>
+    </div>
+    <div class="view-modes">
+      <button class="btn active" onclick="setView('960px', this)">Desktop (960px)</button>
+      <button class="btn" onclick="setView('760px', this)">Tablet (760px)</button>
+      <button class="btn" onclick="setView('480px', this)">Mobile (480px)</button>
+      <button class="btn" onclick="reloadSVGs()">🔄 Refresh Motion</button>
+    </div>
+  </div>
+
+  <!-- Container -->
+  <div class="container-wrapper" id="container">
+    <div class="readme-box">
+      <div class="readme-header">
+        <span>📖 <strong>VivekTomar03 / README.md</strong> (Special Profile Repository)</span>
+        <span>Verified Playbook Build</span>
+      </div>
+
+      <!-- 1. Hero SVG -->
+      <div class="svg-section">
+        <a href="https://vivek-portfolio-3d.netlify.app/" target="_blank">
+          <img id="img-hero" src="./assets/hero.svg?v=2" alt="Vivek Singh Tomar - Intro Hero" />
+        </a>
+      </div>
+
+      <!-- 2. About Life SVG -->
+      <div class="svg-section">
+        <img id="img-about" src="./assets/about-life.svg?v=2" alt="Capabilities & Interests Carousel" />
+      </div>
+
+      <!-- 3. Tech Stack SVG -->
+      <div class="svg-section">
+        <img id="img-stack" src="./assets/stack.svg?v=2" alt="Orbital Tech Stack" />
+      </div>
+
+      <!-- 4. ID Dashboard SVG -->
+      <div class="svg-section">
+        <img id="img-id" src="./assets/id-dashboard.svg?v=2" alt="Verified Credentials & Pendulum Badge" />
+      </div>
+
+      <!-- 5. Connect SVG -->
+      <div class="svg-section">
+        <img id="img-connect" src="./assets/connect.svg?v=2" alt="Connect with Vivek" />
+      </div>
+
+      <!-- Real Clickable Social Links -->
+      <div class="social-links">
+        <a href="https://vivek-portfolio-3d.netlify.app/" target="_blank">
+          <img src="https://img.shields.io/badge/🌐_3D_Portfolio-070b16?style=for-the-badge&logoColor=38bdf8&labelColor=247bff" alt="Portfolio" />
+        </a>
+        <a href="./assets/Vivek_Singh_Tomar_Resume.pdf" target="_blank">
+          <img src="https://img.shields.io/badge/📄_Download_Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume" />
+        </a>
+        <a href="https://www.linkedin.com/in/vivek7410/" target="_blank">
+          <img src="https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/VivekTomar03" target="_blank">
+          <img src="https://img.shields.io/badge/🐙_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+        </a>
+        <a href="https://codepen.io/VivekTomar03" target="_blank">
+          <img src="https://img.shields.io/badge/🖋️_CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen" />
+        </a>
+        <a href="https://codesandbox.io/u/vivektomar03" target="_blank">
+          <img src="https://img.shields.io/badge/📦_CodeSandbox-151515?style=for-the-badge&logo=codesandbox&logoColor=white" alt="CodeSandbox" />
+        </a>
+        <a href="mailto:tomarvivek90viv@gmail.com">
+          <img src="https://img.shields.io/badge/✉️_Email_Me-ff354f?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+        </a>
+      </div>
+
+      <!-- Featured Projects -->
+      <h3 style="color: #f0f6fc; margin-bottom: 12px; font-size: 16px;">🚀 Verified Production &amp; AI Projects</h3>
+      <table>
+        <thead>
+          <tr>
+            <th width="32%">Project</th>
+            <th width="42%">Architecture &amp; Highlights</th>
+            <th width="26%">Tech Stack &amp; Links</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <b>🤖 AI PDF Chat</b><br/>
+              <span style="color:#8b949e; font-size: 11px;">Multi-User PDF RAG Chatbot</span>
+            </td>
+            <td>
+              Full-stack retrieval-augmented generation (RAG) platform allowing users to upload documents and query them contextually using vector search and generative intelligence.
+            </td>
+            <td>
+              <code>LangChain</code> <code>Gemini API</code> <code>MongoDB Atlas Vector</code> <code>React</code><br/><br/>
+              🔗 <a href="https://ai-pdf-chat-fe.vercel.app/" target="_blank" style="color:#58a6ff;"><b>Live Demo</b></a> • <a href="https://github.com/VivekTomar03/AI-Pdf-Chat-FE" target="_blank" style="color:#58a6ff;"><b>Code</b></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>👟 ShoeMart AI</b><br/>
+              <span style="color:#8b949e; font-size: 11px;">Next-Gen Intelligent Retail</span>
+            </td>
+            <td>
+              Modern e-commerce platform bridging digital shopping and reality through AI-powered virtual try-ons, real-time logistics, Redux state management, and an intelligent client-admin ecosystem.
+            </td>
+            <td>
+              <code>React</code> <code>Redux</code> <code>Tailwind CSS</code> <code>MongoDB</code> <code>Node.js</code><br/><br/>
+              🔗 <a href="https://shoe-mart-ai.netlify.app/" target="_blank" style="color:#58a6ff;"><b>Live Demo</b></a> • <a href="https://github.com/VivekTomar03/shoe-mart-FE" target="_blank" style="color:#58a6ff;"><b>Code</b></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>🎯 Tech-Buddy AI</b><br/>
+              <span style="color:#8b949e; font-size: 11px;">Adaptive Technical Mock Interviews</span>
+            </td>
+            <td>
+              AI interview simulator with dynamic technical questioning, live code execution sandbox, voice interaction, and comprehensive scoring metrics.
+            </td>
+            <td>
+              <code>React</code> <code>Redux</code> <code>Tailwind</code> <code>MongoDB</code> <code>Node.js</code><br/><br/>
+              🔗 <a href="https://tech-buddy-ai.netlify.app/" target="_blank" style="color:#58a6ff;"><b>Live Demo</b></a> • <a href="https://github.com/VivekTomar03/Tech-Buddy_FE" target="_blank" style="color:#58a6ff;"><b>Code</b></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>⭐ Marty-QR</b><br/>
+              <span style="color:#8b949e; font-size: 11px;">AI-Powered Review &amp; Reputation Engine</span>
+            </td>
+            <td>
+              Context-engine platform that transforms in-person physical customer sentiment into high-converting 5★ Google reviews with super admin dashboards.
+            </td>
+            <td>
+              <code>React</code> <code>Redux</code> <code>Tailwind CSS</code> <code>Node.js</code> <code>MongoDB</code><br/><br/>
+              🔗 <a href="https://marty-qr.netlify.app/" target="_blank" style="color:#58a6ff;"><b>Live Demo</b></a> • <a href="https://github.com/VivekTomar03/Marty-QR" target="_blank" style="color:#58a6ff;"><b>Code</b></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>💎 CaratLane (Clone)</b><br/>
+              <span style="color:#8b949e; font-size: 11px;">Scalable Luxury E-Commerce</span>
+            </td>
+            <td>
+              Online jewelry store featuring role-based admin consoles, product sorting &amp; filtering pipelines, user authentication, and persistent shopping cart flows.
+            </td>
+            <td>
+              <code>React</code> <code>Redux</code> <code>Chakra UI</code> <code>MongoDB Atlas</code> <code>Node.js</code><br/><br/>
+              🔗 <a href="https://inifinestoneclone.vercel.app/" target="_blank" style="color:#58a6ff;"><b>Live Demo</b></a> • <a href="https://github.com/VivekTomar03/CaratLane--Clone" target="_blank" style="color:#58a6ff;"><b>Code</b></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>🌌 3D Interactive Portfolio</b><br/>
+              <span style="color:#8b949e; font-size: 11px;">Immersive Spatial Showcase</span>
+            </td>
+            <td>
+              Personal brand portfolio featuring 3D interactive models, spatial lighting, real-time AI assistant, and dark mode cyberpunk visual craft.
+            </td>
+            <td>
+              <code>React</code> <code>Three.js</code> <code>Spline</code> <code>MUI</code> <code>Framer Motion</code><br/><br/>
+              🔗 <a href="https://vivek-portfolio-3d.netlify.app/" target="_blank" style="color:#58a6ff;"><b>Live Demo</b></a> • <a href="https://github.com/VivekTomar03" target="_blank" style="color:#58a6ff;"><b>Code</b></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- GitHub Stats Bar -->
+      <div class="badge-bar">
+        <img height="165" src="https://github-readme-stats.vercel.app/api?username=vivektomar03&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=070b16&title_color=38bdf8&icon_color=ff354f&text_color=94a3b8" alt="GitHub Stats" />
+        <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=vivektomar03&theme=radical&hide_border=true&background=070b16&stroke=247bff&ring=38bdf8&fire=ff354f&currStreakLabel=38bdf8&sideNums=ffffff&sideLabels=94a3b8" alt="GitHub Streak" />
+      </div>
+
+      <div class="badge-bar">
+        <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivektomar03&layout=compact&theme=radical&hide_border=true&bg_color=070b16&title_color=38bdf8&text_color=94a3b8&langs_count=8" alt="Top Languages" />
+      </div>
+
+      <div class="footer-note">
+        <p>✨ <strong>Designed &amp; Engineered by Vivek Singh Tomar</strong> ✨</p>
+        <p style="margin-top: 6px; font-size: 11px;">The Profile Playbook Architecture • 100% Self-Contained SVG • Pure CSS &amp; SMIL Motion</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function setView(width, btn) {
+      document.getElementById('container').style.maxWidth = width;
+      document.querySelectorAll('.btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    }
+
+    function reloadSVGs() {
+      const timestamp = new Date().getTime();
+      ['hero', 'about', 'stack', 'id', 'connect'].forEach(id => {
+        const el = document.getElementById('img-' + id);
+        if (el) {
+          const base = el.src.split('?')[0];
+          el.src = base + '?v=' + timestamp;
+        }
+      });
+    }
+  </script>
+</body>
+</html>
